@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<title>DealEstate.Ai</title>
+
+	<!-- FONTS START -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Open+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+	<!-- FONTS END -->
+	<link rel="stylesheet" href="css/style.min.css?v=1">	
+</head>
+<body>
+	<div class="question-layout optional hide">
+		<div class="question-layout__wrapper">
+			<img src="./svg/questions/q1.svg" alt="" class="question-layout__img layout__img1">
+			<img src="./svg/questions/q2.svg" alt="" class="question-layout__img layout__img2">
+			<img src="./svg/questions/q3.svg" alt="" class="question-layout__img layout__img3">
+			<img src="./svg/questions/q4.svg" alt="" class="question-layout__img layout__img4">
+			<img src="./svg/questions/q5.svg" alt="" class="question-layout__img layout__img5">
+			<img src="./svg/questions/q6.svg" alt="" class="question-layout__img layout__img6">
+		</div>
+	</div>
+	<div class="grid">
+		<!-- <header class="header">
+			<div class="header-wrapper">
+				<a href="#"><img src="./svg/Logo-white.svg" alt="" class="header__logo">
+				</a>
+				<nav class="header__menu">
+					<div class="header__menu-items"><a href="#">Home</a></div>
+					<div class="header__menu-items"><a href="#">About Us</a></div>
+					<div class="header__menu-items"><a href="#">Service</a></div>
+					<div class="header__menu-items"><a href="#">Blog</a></div>
+					<div data-signup class="header__menu-items"><a href="#">Sign In</a></div>
+				</nav>
+			</div>
+		</header> -->
+		<section class="startup"> 
+			<div class="startup__left">
+				<img src="./svg/main-screen-img.svg" alt="" class="startup__img">
+			</div>
+			<div class="startup__right">
+				<div class="startup__right-wrapper">
+					<h1 class="startup__header">Help us! Select the best investment opportunities for you!</h1>
+					<h2 class="startup__subheader">And get your own risk tolerance assessment</h2>
+					<button data-startup class="startup__button">Personal Reit!</button>
+				</div>
+			</div>
+		</section>
+		<!-- QUIZ -->
+		<!-- Risk Tolerance Questions -->
+		<!-- #1 question -->
+		<section data-quiz class="quiz hide">
+			<img src="./svg/old_man.svg" alt="How old are you?" class="quiz__img">
+			<div class="quiz__questions-sector">
+				<h2 class="quiz__header"><span class="quiz__question-indicator">1/21</span> Please, select your age</h2>
+				<form>
+				<fieldset class="quiz__questions">						
+					<label for="q1_a1" class="quiz_label list__label">
+						<div class="quiz__radio-wrapper">
+							<input type="radio" class="quiz__radio list__radio" value="10" id="q1_a1" name="q1">
+							<span>Less then 18</span>
+						</div>
+					</label>
+					<label for="q1_a2" class="quiz_label list__label">
+						<div class="quiz__radio-wrapper">
+							<input type="radio" class="quiz__radio list__radio" value="7" id="q1_a2" name="q1">
+							<span>8 - 25</span>
+						</div>
+					</label>
+
+					<label for="q1_a3" class="quiz_label list__label">
+						<div class="quiz__radio-wrapper">
+							<input type="radio" class="quiz__radio list__radio" value="6" id="q1_a3" name="q1">
+							<span>25 - 35</span>
+						</div>
+					</label>
+					<label for="q1_a4" class="quiz_label list__label">
+						<div class="quiz__radio-wrapper">
+							<input type="radio" class="quiz__radio list__radio" value="5" id="q1_a4" name="q1">
+							<span>35 - 45</span>
+						</div>		
+					</label>
+				
+					<label for="q1_a5" class="quiz_label list__label">
+						<div class="quiz__radio-wrapper">
+							<input type="radio" class="quiz__radio list__radio" value="4" id="q1_a5" name="q1">
+							<span>45 - 55</span>
+						</div>		
+					</label>
+				
+					<label for="q1_a6" class="quiz_label list__label">
+						<div class="quiz__radio-wrapper">
+							<input type="radio" class="quiz__radio list__radio" value="3" id="q1_a6" name="q1">
+							<span>55 - 65</span>
+						</div>		
+					</label>
+				
+					<label for="q1_a7" class="quiz_label list__label">
+						<div class="quiz__radio-wrapper">
+							<input type="radio" class="quiz__radio list__radio" value="1" id="q1_a7" name="q1">
+							<span>More then 65</span>
+						</div>		
+					</label>	
+					
+				</fieldset>
+			</form>
+			<div class="quiz__button-wrapper">
+				<div class="quiz__next-question">next question</div>
+			</div>
+			</div> 
+		</section>
+		<!-- #2 question -->
+		<section data-quiz class="quiz2 hide">
+			<div class="quiz2__img-container">
+				<img src="./svg/pig.svg" alt="How old are you?" class="quiz2__img">
+			</div>
+			<div class="quiz2__questions-sector">
+				<h2 class="quiz2__header"><span class="quiz__question-indicator">2/21</span> What’s your annual income? </h2>
+				<form>
+					<fieldset class="quiz2__questions">
+							<label for="q2_a1" class="quiz2_label list__label">
+								<div class="quiz2__radio-wrapper">
+									<input type="radio" class="quiz2__radio list__radio" value="1" id="q2_a1" name="q2">
+									<span>Less than 25</span>	
+								</div>		
+							</label>
+						
+							<label for="q2_a2" class="quiz2_label list__label">
+								<div class="quiz2__radio-wrapper">
+									<input type="radio" class="quiz2__radio list__radio" value="3" id="q2_a2" name="q2">
+									<span>25 - 200K</span>
+								</div>		
+							</label>							
+						
+							<label for="q2_a3" class="quiz2_label list__label">
+								<div class="quiz2__radio-wrapper">
+									<input type="radio" class="quiz2__radio list__radio" value="5" id="q2_a3" name="q2">
+									<span>200 - 300K</span>
+								</div>		
+							</label>						
+						
+							<label for="q2_a4" class="quiz2_label list__label">
+								<div class="quiz2__radio-wrapper">
+									<input type="radio" class="quiz2__radio list__radio" value="7" id="q2_a4" name="q2">
+									<span>300 - 400K</span>
+								</div>		
+							</label>						
+						
+							<label for="q2_a5" class="quiz2_label list__label">
+								<div class="quiz2__radio-wrapper">
+									<input type="radio" class="quiz2__radio list__radio" value="9" id="q2_a5" name="q2">
+									<span>400 - 500K</span>
+								</div>		
+							</label>							
+						
+							<label for="q2_a6" class="quiz2_label list__label">
+								<div class="quiz2__radio-wrapper">
+									<input type="radio" class="quiz2__radio list__radio" value="10" id="q2_a6" name="q2">
+									<span>More than 500K</span>
+								</div>		
+							</label>						
+						
+					
+					</fieldset>
+				</form>
+				<div class="quiz__button-wrapper">
+					<div class="quiz__prev-question">return</div>
+					<div class="quiz__next-question">next question</div>
+				</div>			
+			</div> 
+		</section>
+		<!-- #3 question -->
+		<section data-quiz class="quiz3 hide">
+			<div class="quiz3__questions-sector">
+				<h2 class="quiz3__header"><span class="quiz__question-indicator">3/21</span> How stable is your income?</h2>
+				<form class="quiz3__form">
+				<fieldset class="quiz3__questions">
+					<label for="q3_a1" class="quiz3__label">
+						<div class="quiz3__radio-wrapper">
+							<img src="./svg/very_good_smile.svg" class="quiz3__radio-img" alt="">
+							<input type="radio" class="quiz3__radio" value="10" id="q3_a1" name="q3">
+							<span>Very stable: I have a steady job with a reliable income, and I don't anticipate 
+								any major changes to my income in the near future. </span>				
+						</div>
+					</label>	
+					
+					<label for="q3_a2" class="quiz3__label">
+						<div class="quiz3__radio-wrapper">
+							<img src="./svg/good_smile.svg" class="quiz3__radio-img" alt="">
+							<input type="radio" class="quiz3__radio" value="7" id="q3_a2" name="q3">
+							<span>Somewhat stable: My income is generally stable, but there may be some fluctuations or uncertainty due to factors like seasonality, contract work, or commission-based earnings.</span>					
+						</div>
+					</label>	
+					
+					<label for="q3_a3" class="quiz3__label">
+						<div class="quiz3__radio-wrapper">
+							<img src="./svg/bad_smile.svg" class="quiz3__radio-img" alt="">
+							<input type="radio" class="quiz3__radio" value="4" id="q3_a3" name="q3">
+							<span>Unstable: My income is not very predictable, and I may experience significant fluctuations in earnings due to factors like freelancing, self-employment, or variable compensation structures. </span>						
+						</div>
+					</label>
+					
+					<label for="q3_a4" class="quiz3__label">
+						<div class="quiz3__radio-wrapper">
+							<img src="./svg/neutural_smile.svg" class="quiz3__radio-img" alt="">
+							<input type="radio" class="quiz3__radio" value="1" id="q3_a4" name="q3">
+							<span>Unknown: I am unsure about the stability of my income, or I am in a transitional period where my income is likely to change soon (e.g. starting   a new job, going back to school, etc.)</span>					
+						</div>
+					</label>	
+					
+
+				</fieldset>
+			</form>
+			<div class="quiz__button-wrapper">
+				<div class="quiz__prev-question">return</div>
+				<div class="quiz__next-question">next question</div>
+			</div>
+			
+			</div> 
+		</section>
+		<!-- #4 question -->
+		<section data-quiz class="quiz4 hide">
+			<div class="quiz4__img-container">
+				<img src="./svg/q4_cion_bank.svg" alt="How old are you?" class="quiz4__img">
+			</div>
+			<div class="quiz4__questions-sector">
+				<h2 class="quiz4__header"><span class="quiz__question-indicator">4/21</span> How much do you have saved for emergency?</h2>
+				<form class="quiz4__form">
+				<fieldset class="quiz4__questions">
+					<label for="q4_a1" class="quiz4__label list__label">
+						<div class="quiz4__radio-wrapper">
+							<input type="radio" class="quiz4__radio list__radio" value="1" id="q4_a1" name="q4">
+							<span>Less than 1 month</span>
+						</div>
+					</label>
+					
+					<label for="q4_a2" class="quiz4__label list__label">
+						<div class="quiz4__radio-wrapper">
+							<input type="radio" class="quiz4__radio list__radio" value="3" id="q4_a2" name="q4">
+							<span>1 - 3 months of expenses</span>
+						</div>
+					</label>
+					
+					<label for="q4_a3" class="quiz4__label list__label">
+						<div class="quiz4__radio-wrapper">
+							<input type="radio" class="quiz4__radio list__radio" value="5" id="q4_a3" name="q4">
+							<span>3 - 6 months of expenses</span>
+						</div>
+					</label>
+					
+					<label for="q4_a4" class="quiz4__label list__label">
+						<div class="quiz4__radio-wrapper">
+							<input type="radio" class="quiz4__radio list__radio" value="8" id="q4_a4" name="q4">
+							<span>6 - 12 months of expenses</span>
+						</div>
+					</label>
+					
+					<label for="q4_a5" class="quiz4__label list__label">
+						<div class="quiz4__radio-wrapper">
+							<input type="radio" class="quiz4__radio list__radio" value="10" id="q4_a5" name="q4">
+							<span>More than 12 months of expenses</span>
+						</div>
+					</label>	
+					
+
+				</fieldset>
+			</form>
+			<div class="quiz__button-wrapper">
+				<div class="quiz__prev-question">return</div>
+				<div class="quiz__next-question">next question</div>
+			</div>
+			
+			</div> 
+		</section>
+		<!-- #5 question -->
+		<section data-quiz class="quiz5 hide">
+			<div class="quiz5__img-container">
+				<img src="./svg/storcks_down.svg" alt="How old are you?" class="quiz5__img">
+			</div>
+			<div class="quiz5__questions-sector">
+				<h2 class="quiz5__header"><span class="quiz__question-indicator">5/21</span> What is your current debt level?</h2>
+				<form class="quiz5__form">
+				<fieldset class="quiz5__questions">
+
+					<label for="q5_a1" class="quiz5__label list__label">
+						<div class="quiz5__radio-wrapper">
+							<input type="radio" class="list__radio quiz5__radio" value="10" id="q5_a1" name="q5">
+							<span><span class="quiz5__subheader">No debt:</span> I have no outstanding debts or loans.</span>					
+						</div>
+					</label>
+					
+					<label for="q5_a2" class="quiz5__label list__label">
+						<div class="quiz5__radio-wrapper">						
+							<input type="radio" class="quiz5__radio list__radio" value="8" id="q5_a2" name="q5">
+							<span><span>Minimal debt:</span> I have a small amount of debt that I am actively <br> managing and have a plan to pay off.</span>						
+						</div>
+					</label>
+					
+					<label for="q5_a3" class="quiz5__label list__label">
+						<div class="quiz5__radio-wrapper">						
+							<input type="radio" class="quiz5__radio list__radio" value="6" id="q5_a3" name="q5">
+							<span><span>Moderate debt:</span> I have a moderate level of debt, such as student loans, a car loan, or a mortgage, and I am making regular payments on them.</span>						
+						</div>
+					</label>
+					
+					<label for="q5_a4" class="quiz5__label list__label">
+						<div class="quiz5__radio-wrapper">
+							<input type="radio" class="quiz5__radio list__radio" value="3" id="q5_a4" name="q5">
+							<span><span>High debt:</span> I have a significant amount of <br> debt, including multiple loans or credit card balances, and it may take some time to pay them off completely.</span>						
+						</div>
+					</label>
+					
+					<label for="q5_a5" class="quiz5__label list__label">
+						<div class="quiz5__radio-wrapper">
+							<input type="radio" class="quiz5__radio list__radio" value="1" id="q5_a5" name="q5">
+							<span><span>Overwhelming debt:</span> I have an excessive amount of debt, and it is causing financial strain and difficulty in meeting payment obligations.</span>		
+						</div>
+					</label>
+					
+				</fieldset>
+			</form>
+			<div class="quiz__button-wrapper">
+				<div class="quiz__prev-question">return</div>
+				<div class="quiz__next-question">next question</div>
+			</div>
+			
+			</div> 
+		</section>
+		<!-- #6 question -->
+		<section data-quiz class="quiz6 hide">
+			<h2 class="quiz6__header"><span class="quiz__question-indicator">6/21</span> What percentage of your income are you willing to invest?</h2>
+			<div class="quiz6__img-container">
+				<img src="./svg/dashboard.svg" alt="How old are you?" class="quiz6__img">
+			</div>
+			<div class="quiz6__questions-sector">
+				
+			<form class="quiz6__form">
+				<fieldset class="quiz6__questions">
+					<label for="q6_a1" class="quiz6__label list__label">
+						<input type="radio" class="quiz6__radio" value="1" id="q6_a1" name="q6">
+						5 - 15%							
+						<span class="quiz6__sector sector1">
+							<span class="quiz6__white-spot"></span>
+						</span>				
+					</label>
+					<label for="q6_a2" class="quiz6__label list__label">
+						<input type="radio" class="quiz6__radio" value="3" id="q6_a2" name="q6">
+						15 - 30%
+						<span class="quiz6__sector sector2">
+							<span class="quiz6__white-spot"></span>
+						</span>				
+					</label>
+					<label for="q6_a3" class="quiz6__label list__label">
+						<input type="radio" class="quiz6__radio" value="5" id="q6_a3" name="q6">
+						30 - 50%
+						<span class="quiz6__sector sector3">
+							<span class="quiz6__white-spot"></span>
+						</span>				
+					</label>
+					<label for="q6_a4" class="quiz6__label list__label">
+						<input type="radio" class="quiz6__radio" value="7" id="q6_a4" name="q6">
+						50 - 70%							
+						<span class="quiz6__sector sector4">
+							<span class="quiz6__white-spot"></span>
+						</span>				
+					</label>
+					<label for="q6_a5" class="quiz6__label list__label">
+						<input type="radio" class="quiz6__radio" value="10" id="q6_a5" name="q6">
+						70 - 100%							
+						<span class="quiz6__sector sector5">
+							<span class="quiz6__white-spot"></span>
+						</span>				
+					</label>
+				</fieldset>
+			</form>
+			
+			
+			</div> 
+			<div class="quiz__button-wrapper">
+				<div class="quiz__prev-question">return</div>
+				<div class="quiz__next-question">next question</div>
+			</div>
+		</section>
+		<!-- #7 question -->
+		<section data-quiz class="quiz7 hide">
+			<div class="quiz7__questions-sector">
+				<h2 class="quiz7__header"><span class="quiz__question-indicator">7/21</span> How would you react if the value of your investment dropped by 10%?</h2>
+				<form class="quiz7__form">
+				<fieldset class="quiz7__questions">
+					<label for="q7_a1" class="quiz7__label">
+						<div class="quiz7__radio-wrapper">
+							<div class="quiz7__img-container">
+								<img src="./svg/q7_man1.svg" class="quiz7__radio-img" alt="">
+							</div>
+							<input type="radio" class="quiz7__radio" value="10" id="q7_a1" name="q7">
+							<div class="quiz7__span-wrapper">
+								<span class="quiz7__subheader">Calm</span>
+								<span class="quiz7__text">I would remain composed and not be overly concerned by the 10% drop. I understand that fluctuations are a natural part of investing, and I would take a long-term perspective before making any decisions.</span>		
+							</div>
+							
+						</div>
+					</label>	
+					
+					<label for="q7_a2" class="quiz7__label">
+						<div class="quiz7__radio-wrapper">
+							<div class="quiz7__img-container">
+								<img src="./svg/q7_man2.svg" class="quiz7__radio-img" alt="">
+							</div>
+							<input type="radio" class="quiz7__radio" value="8" id="q7_a2" name="q7">
+							<div class="quiz7__span-wrapper">
+								<span class="quiz7__subheader">Optimistic</span>
+							<span class="quiz7__text"> I would stay positive and view the drop as a temporary setback. I believe in the long-term potential of my investment and would look for opportunities to potentially buy more at a lower price.</span>	
+							</div>										
+						</div>
+					</label>	
+					
+					<label for="q7_a3" class="quiz7__label">
+						<div class="quiz7__radio-wrapper">
+							<div class="quiz7__img-container">
+								<img src="./svg/q7_man3.svg" class="quiz7__radio-img" alt="">
+							</div>
+							<input type="radio" class="quiz7__radio" value="5" id="q7_a3" name="q7">
+							<div class="quiz7__span-wrapper">
+								<span class="quiz7__subheader">Concerned</span>
+							<span class="quiz7__text">I would feel a bit uneasy or concerned about the 10% drop. I might closely monitor the situation and assess any potential impact on my overall investment strategy.</span>
+							</div>								
+						</div>
+					</label>	
+					
+					<label for="q7_a4" class="quiz7__label">
+						<div class="quiz7__radio-wrapper">
+							<div class="quiz7__img-container">
+								<img src="./svg/q7_man4.svg" class="quiz7__radio-img" alt="">
+							</div>
+							<input type="radio" class="quiz7__radio" value="3" id="q7_a4" name="q7">
+							<div class="quiz7__span-wrapper">
+								<span class="quiz7__subheader">Nervous</span>
+								<span class="quiz7__text">I would become noticeably worried or anxious about the drop, as a 10% decline represents a significant loss. I might consider taking immediate action to minimize further losses or seek advice from a financial professional.</span>	
+							</div>									
+						</div>
+					</label>		
+					
+					<label for="q7_a5" class="quiz7__label">
+						<div class="quiz7__radio-wrapper">
+							<div class="quiz7__img-container">
+								<img src="./svg/q7_man5.svg" class="quiz7__radio-img" alt="">
+							</div>
+							<input type="radio" class="quiz7__radio" value="1" id="q7_a5" name="q7">
+							<div class="quiz7__span-wrapper">
+								<span class="quiz7__subheader">Panicked</span>
+							<span class="quiz7__text">I would experience a strong sense of fear and panic, feeling overwhelmed by the drop. I might hastily sell off my investment without careful consideration, potentially incurring significant losses.</span>	
+							</div>
+										
+						</div>
+					</label>		
+					
+					
+				</fieldset>
+			</form>
+			<div class="quiz__button-wrapper">
+				<div class="quiz__prev-question">return</div>
+				<div class="quiz__next-question">next question</div>
+			</div>
+			
+			</div> 
+		</section>
+		<!-- #8 question -->
+		<section data-quiz class="quiz8 hide">
+			<div class="quiz8__questions-sector">
+				<h2 class="quiz8__header"><span class="quiz__question-indicator">8/21</span> Are you comfortable with short-term fluctuations 
+					in your investment value? </h2>
+				<form class="quiz8__form">
+				<fieldset class="quiz8__questions">
+					<label for="q8_a1" class="quiz8__label">
+						<div class="quiz8__radio-wrapper">
+							<div class="quiz8__img-container">
+								<img src="./svg/q8_comfortable.svg" class="quiz8__radio-img" alt="">
+							</div>
+							<input type="radio" class="quiz8__radio" value="10" id="q8_a1" name="q8">
+							<div class="quiz8__span-wrapper">
+								<span class="quiz8__subheader">Comfortable</span>
+							<span class="quiz8__text">I am at ease with short-term fluctuations in my investment value. I understand that volatility is a natural part of investing and have the patience to ride out the ups and downs.</span>		
+							</div>							
+						</div>
+					</label>		
+					<label for="q8_a2" class="quiz8__label">
+						<div class="quiz8__radio-wrapper">
+							<div class="quiz8__img-container">
+								<img src="./svg/q8_some_comfortable.svg" class="quiz8__radio-img" alt="">
+							</div>
+							<input type="radio" class="quiz8__radio" value="8" id="q8_a2" name="q8">
+							<div class="quiz8__span-wrapper">
+								<span class="quiz8__subheader">Somewhat Comfortable</span>
+							<span class="quiz8__text"> I can tolerate some short-term fluctuations in my investment value, although I may feel a slight sense of unease during turbulent spaneriods. However, I remain confident in the long-term growth potential.</span>
+							</div>
+											
+						</div>
+					</label>	
+					
+					<label for="q8_a3" class="quiz8__label">
+						<div class="quiz8__radio-wrapper">
+							<div class="quiz8__img-container">
+								<img src="./svg/q8_neutural.svg" class="quiz8__radio-img" alt="">
+							</div>
+							<input type="radio" class="quiz8__radio" value="5" id="q8_a3" name="q8">
+							<div class="quiz8__span-wrapper">
+								<span class="quiz8__subheader">Neutral</span>
+								<span class="quiz8__text">I am neither particularly comfortable nor uncomfortable with short-term fluctuations in my investment value. I understand that they are a normal part of the investment journey and do not significantly impact my decision-making.</span>	
+							</div>
+										
+						</div>
+					</label>	
+					
+					<label for="q8_a4" class="quiz8__label">
+						<div class="quiz8__radio-wrapper">
+							<div class="quiz8__img-container">
+								<img src="./svg/q8_somewhat_uncomfortable.svg" class="quiz8__radio-img" alt="">
+							</div>
+							<input type="radio" class="quiz8__radio" value="3" id="q8_a4" name="q8">
+							<div class="quiz8__span-wrapper">
+								<span class="quiz8__subheader">Somewhat  <br>
+								Uncomfortable</span>
+								<span class="quiz8__text">I feel uneasy with short-term fluctuations in my investment value. I may find it challenging to handle market volatility and may be tempted to react impulsively during downturns.</span>
+						</div>					
+						</div>
+					</label>	
+					
+					<label for="q8_a5" class="quiz8__label">
+						<div class="quiz8__radio-wrapper">
+							<div class="quiz8__img-container">
+								<img src="./svg/q8_uncomfortable.svg" class="quiz8__radio-img" alt="">
+							</div>
+							<input type="radio" class="quiz8__radio" value="1" id="q8_a5" name="q8">
+							<div class="quiz8__span-wrapper">
+								<span class="quiz8__subheader"> Uncomfortable</span>
+								<span class="quiz8__text">I am highly uncomfortable with any short-term fluctuations in my investment value. Even minor fluctuations can cause significant anxiety, leading me to doubt my investment decisions and potentially make hasty decisions based on fear.</span>
+							</div>					
+						</div>	
+					</label>	
+					
+
+				</fieldset>
+			</form>
+			<div class="quiz__button-wrapper">
+				<div class="quiz__prev-question">return</div>
+				<div class="quiz__next-question">next question</div>
+			</div>
+			
+			</div> 
+		</section>
+		<!-- #9 question -->
+		<section data-quiz class="quiz9 hide">
+			<h2 class="quiz9__header"><span class="quiz__question-indicator">9/21</span> What is your primary investment goal?</h2>
+			<div class="quiz9__img-container">
+				<img src="./svg/q9_runup.svg" alt="How old are you?" class="quiz9__img">
+			</div>
+			<div class="quiz9__questions-sector">
+				
+				<form class="quiz9__form">
+				<fieldset class="quiz9__questions">
+					<label for="q9_a1" class="quiz9__label list__label">
+						<div class="quiz9__radio-wrapper">
+							<input type="radio" class="quiz9__radio list__radio" value="5" id="q9_a1" name="q9">
+							<span>Material things and purchases  </span>				
+						</div>
+					</label>	
+					
+					<label for="q9_a2" class="quiz9__label list__label">
+						<div class="quiz9__radio-wrapper">
+							<input type="radio" class="quiz9__radio list__radio" value="8" id="q9_a2" name="q9">
+							<span>Planning for retirement</span>			
+						</div>
+					</label>	
+					
+					<label for="q9_a3" class="quiz9__label list__label">
+						<div class="quiz9__radio-wrapper">
+							<input type="radio" class="quiz9__radio list__radio" value="7" id="q9_a3" name="q9">
+							<span>Providing for your children's education</span>				
+						</div>
+					</label>		
+					
+					<label for="q9_a4" class="quiz9__label list__label">
+						<div class="quiz9__radio-wrapper">
+							<input type="radio" class="quiz9__radio list__radio" value="10" id="q9_a4" name="q9">
+							<span>Seeking higher returns</span>						
+						</div>
+					</label>
+					
+					<label for="q9_a5" class="quiz9__label list__label">
+						<div class="quiz9__radio-wrapper">
+							<input type="radio" class="quiz9__radio list__radio" value="3" id="q9_a5" name="q9">
+							<span>Avoiding loss</span>
+						</div>
+					</label>	
+
+				</fieldset>
+			</form>
+			
+			
+			</div> 
+			<div class="quiz__button-wrapper">
+				<div class="quiz__prev-question">return</div>
+				<div class="quiz__next-question">next question</div>
+			</div>
+		</section>
+		<!-- #10 question -->
+		<section data-quiz class="quiz10 hide">
+			<h2 class="quiz10__header"><span class="quiz__question-indicator">10/21</span> How much investment experience do you have?</h2>
+			<div class="quiz10__img-container">
+				<img src="./svg/q10_knowlage.svg" alt="How old are you?" class="quiz10__img">
+			</div>
+			<div class="quiz10__questions-sector">
+				
+				<form class="quiz10__form">
+				<fieldset class="quiz10__questions">
+					<label for="q10_a1" class="quiz10__label list__label">
+						<div class="quiz10__radio-wrapper">
+							<input type="radio" class="quiz10__radio list__radio" value="1" id="q10_a1" name="q10">
+							<span>Beginner</span>							
+						</div>
+					</label>
+					
+					<label for="q10_a2" class="quiz10__label list__label">
+						<div class="quiz10__radio-wrapper">
+							<input type="radio" class="quiz10__radio list__radio" value="3" id="q10_a2" name="q10">
+							<span>Limited Experience</span>						
+						</div>
+					</label>
+					<label for="q10_a3" class="quiz10__label list__label">
+						<div class="quiz10__radio-wrapper">
+							<input type="radio" class="quiz10__radio list__radio" value="5" id="q10_a3" name="q10">
+							<span>Moderate Experience</span>						
+						</div>
+					</label>
+
+					<label for="q10_a4" class="quiz10__label list__label">
+						<div class="quiz10__radio-wrapper">
+							<input type="radio" class="quiz10__radio list__radio" value="7" id="q10_a4" name="q10">
+							<span>Experienced</span>						
+						</div>
+					</label>
+					
+					<label for="q10_a5" class="quiz10__label list__label">
+						<div class="quiz10__radio-wrapper">
+							<input type="radio" class="quiz10__radio list__radio" value="10" id="q10_a5" name="q10">
+							<span>Professional/Expert</span>						
+						</div>
+					</label>
+					
+				</fieldset>
+			</form>
+			
+			
+			</div> 
+			<div class="quiz__button-wrapper">
+				<div class="quiz__prev-question">return</div>
+				<div class="quiz__next-question">next question</div>
+			</div>
+		</section>
+		<!-- #11 question -->
+		<section data-quiz class="quiz11 hide">
+			<h2 class="quiz11__header"><span class="quiz__question-indicator">11/21</span> Why are you investing?</h2>
+			<div class="quiz11__img-container">
+				<img src="./svg/q11_why_invest.svg" alt="How old are you?" class="quiz11__img">
+			</div>
+			<div class="quiz11__questions-sector">
+				
+				<form class="quiz11__form">
+				<fieldset class="quiz11__questions">
+
+					<label for="q11_a1" class="quiz11__label list__label">
+						<div class="quiz11__radio-wrapper">
+							<input type="radio" class="quiz11__radio list__radio" value="1" id="q11_a1" name="q11">
+							<span>Minimizing tax liabilities</span>					
+						</div>
+					</label>
+					<label for="q11_a2" class="quiz11__label list__label">
+						<div class="quiz11__radio-wrapper">
+							<input type="radio" class="quiz11__radio list__radio" value="2" id="q11_a2" name="q11">
+							<span>Saving for a specific goal or purchase</span>						
+						</div>
+					</label>
+					
+					<label for="q11_a3" class="quiz11__label list__label">
+						<div class="quiz11__radio-wrapper">
+							<input type="radio" class="quiz11__radio list__radio" value="3" id="q11_a3" name="q11">
+							<span>Preservation of capital</span>							
+						</div>
+					</label>
+					
+					<label for="q11_a4" class="quiz11__label list__label">
+						<div class="quiz11__radio-wrapper">
+							<input type="radio" class="quiz11__radio list__radio" value="5" id="q11_a4" name="q11">
+							<span>Diversification of investment portfolio</span>							
+						</div>
+					</label>
+				
+					<label for="q11_a5" class="quiz11__label list__label">
+						<div class="quiz11__radio-wrapper">
+							<input type="radio" class="quiz11__radio list__radio" value="6" id="q11_a5" name="q11">
+							<span>Financial independence and security</span>							
+						</div>
+					</label>
+					
+					<label for="q11_a6" class="quiz11__label list__label"><div class="quiz11__radio-wrapper">
+						<input type="radio" class="quiz11__radio list__radio" value="7" id="q11_a6" name="q11">
+						<span>Generating passive income</span>					
+					</div>
+				</label>
+					
+					<label for="q11_a7" class="quiz11__label list__label">
+						<div class="quiz11__radio-wrapper">
+							<input type="radio" class="quiz11__radio list__radio" value="8" id="q11_a7" name="q11">
+							<span>Building generational wealth</span>
+							
+						</div>
+					</label>
+					
+					<label for="q11_a8" class="quiz11__label list__label">
+						<div class="quiz11__radio-wrapper">
+							<input type="radio" class="quiz11__radio list__radio" value="10" id="q11_a8" name="q11">
+							<span>Retirement</span>						
+						</div>
+					</label>
+					
+					<label for="q11_a9" class="quiz11__label list__label">
+						<div class="quiz11__radio-wrapper">
+							<input type="radio" class="quiz11__radio list__radio" value="9" id="q11_a9" name="q11">
+							<span>Funding education or future expenses</span>						
+						</div>
+					</label>
+					
+					
+				</fieldset>
+			</form>
+			</div> 
+			<div class="quiz__button-wrapper">
+				<div class="quiz__prev-question">return</div>
+				<div class="quiz__next-question">next question</div>
+			</div>
+		</section>
+		<!-- Invest Horizon question -->
+		<!-- #12 question -->
+		<section data-quiz class="quiz12 hide">
+			<h2 class="quiz12__header"><span class="quiz__question-indicator">12/21</span> How long do you plan to keep your money invested?</h2>
+			<div class="quiz12__img-container">
+				<img src="./svg/q12_deposit.svg" alt="How old are you?" class="quiz12__img">
+			</div>
+
+			<div class="quiz12__questions-sector">
+				
+				<form class="quiz12__form">
+				<fieldset class="quiz12__questions">
+					<label for="q12_a1" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="3" id="q12_a1" name="q12">
+							<div class="quiz12__sector"><span>Short-Term <br> 1 - 3 years</span></div>					
+						</div>
+					</label>
+					
+					<label for="q12_a2" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="5" id="q12_a2" name="q12">
+							
+							<div class="quiz12__sector"><span>Medium-Term <br> 3 - 5 years</span></div>				
+						</div>
+					</label>	
+					
+					<label for="q12_a3" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="7" id="q12_a3" name="q12">
+							
+							<div class="quiz12__sector"><span>Long-Term <br> 5 - 10 years</span></div>				
+						</div>
+					</label>
+					
+					<label for="q12_a5" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="9" id="q12_a5" name="q12">
+							
+							<div class="quiz12__sector"><span>Very <br> Long-Term <br> 10 + years</span></div>				
+						</div>
+					</label>	
+					
+
+				</fieldset>
+			</form>
+			
+			
+			</div> 
+			<div class="quiz__button-wrapper">
+				<div class="quiz__prev-question">return</div>
+				<div class="quiz__next-question">next question</div>
+			</div>
+		</section>
+		<!-- #13 question --> <!--here is slider bar-->
+		<section data-quiz="drager" class="quiz13 hide">
+			<div class="quiz13__questions-sector">
+				<h2 class="quiz13__header"><span class="quiz__question-indicator">13/21</span> When do you expect to start withdrawing money
+					from your investments?</h2>
+				<div class="quiz13__years-wrapper">
+					<ul class="quiz13__years">
+						<li class="quiz13__year">1 year</li>
+						<li class="quiz13__year">1 - 3  years</li>
+						<li class="quiz13__year">3 - 5 years</li>
+						<li class="quiz13__year">5 - 10 years</li>
+						<li class="quiz13__year">10 + years</li>
+					</ul>
+				</div>
+				<div class="quiz13__bar-wrapper">
+					<div class="quiz13__bar"></div>
+					<div class="quiz13__button"></div>
+				</div>
+				<form>
+					<input type="text" name="q13" value="1" hidden>
+				</form>
+				<div class="quiz13__text">Slide To Adjust</div>
+				<div class="quiz__button-wrapper">
+					<div class="quiz__prev-question">return</div>
+					<div class="quiz__next-question">next question</div>
+				</div>
+			</div>			
+			<img src="./svg/q13_money_bunch.svg" alt="How old are you?" class="quiz13__img">		
+		</section>
+		<!-- #14 question -->
+		<section data-quiz class="quiz12 quiz14 hide">
+			<h2 class="quiz12__header"><span class="quiz__question-indicator">14/21</span> What are your primary financial goals?</h2>
+			<div class="quiz12__img-container">
+				<img src="./svg/q14_over_stairs_to_sky.svg" alt="How old are you?" class="quiz12__img">
+			</div>
+
+			<div class="quiz12__questions-sector">
+				
+				<form class="quiz12__form">
+				<fieldset class="quiz12__questions">
+					<label for="q14_a1" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="3" id="q14_a1" name="q14">						
+							<div class="quiz12__sector"><span>Short-Term <br> 1 - 3 years</span></div>					
+						</div>
+					</label>
+					
+					<label for="q14_a2" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="5" id="q14_a2" name="q14">							
+							<div class="quiz12__sector"><span>Medium-Term <br> 3 - 5 years</span></div>				
+						</div>
+					</label>	
+				
+					<label for="q14_a3" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="7" id="q14_a3" name="q14">							
+							<div class="quiz12__sector"><span>Long-Term <br> 5 - 10 years</span></div>				
+						</div>
+					</label>
+					
+					<label for="q14_a4" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="9" id="q14_a4" name="q14">							
+							<div class="quiz12__sector"><span>Very <br> Long-Term <br> 10 + years</span></div>				
+						</div>
+					</label>	
+				</fieldset>
+			</form>
+			
+			
+			</div> 
+			<div class="quiz__button-wrapper">
+				<div class="quiz__prev-question">return</div>
+				<div class="quiz__next-question">next question</div>
+			</div>
+		</section>
+		<!-- #15 question -->
+		<section data-quiz class="quiz12 quiz15 hide"> 
+			<h2 class="quiz12__header"><span class="quiz__question-indicator">15/21</span> How much liquidity do you need in your investments?</h2>
+			<div class="quiz12__img-container">
+				<img src="./svg/q15_profit.svg" alt="How old are you?" class="quiz12__img">
+			</div>
+			<div class="quiz12__questions-sector">
+				<form class="quiz12__form">
+				<fieldset class="quiz12__questions">
+					<label for="q15_a1" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="1" id="q15_a1" name="q15">							
+							<div class="quiz12__sector"><span>High liquidity</span></div>					
+						</div>
+					</label>				
+					<label for="q15_a2" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="5" id="q15_a2" name="q15">
+								
+							<div class="quiz12__sector"><span>Moderate liquidity</span></div>				
+						</div>
+					</label>					
+					<label for="q15_a3" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="7" id="q15_a3" name="q15">
+							
+							<div class="quiz12__sector"><span>Low liquidity</span></div>				
+						</div>
+					</label>					
+					<label for="q15_a4" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="9" id="q15_a4" name="q15">
+							
+							<div class="quiz12__sector"><span>No immediate liquidity</span></div>				
+						</div>
+					</label>	
+				</fieldset>
+				</form>
+			</div> 
+		<div class="quiz__button-wrapper">
+			<div class="quiz__prev-question">return</div>
+			<div class="quiz__next-question">next question</div>
+		</div>
+		</section>
+		<!-- #16 question -->
+		<section data-quiz class="quiz16 hide">
+			<h2 class="quiz16__header"><span class="quiz__question-indicator">16/21</span> What is your primary reason for investing?  </h2>
+			<div class="quiz16__img-container">
+				<img src="./svg/q16_primari_reason.svg" alt="How old are you?" class="quiz16__img">
+			</div>
+			<div class="quiz16__questions-sector">			
+				<form class="quiz16__form">
+					<fieldset class="quiz16__questions">
+						<label for="q16_a1" class="quiz16__label list__label">
+							<div class="quiz16__radio-wrapper">
+								<input type="radio" class="quiz16__radio list__radio" value="10" id="q16_a1" name="q16">
+								<span>Retirement</span>		
+							</div>
+						</label>							
+						<label for="q16_a2" class="quiz16__label list__label">
+							<div class="quiz16__radio-wrapper">
+								<input type="radio" class="quiz16__radio list__radio" value="9" id="q16_a2" name="q16">
+								<span>Wealth Accumulation</span>					
+							</div>
+						</label>
+						
+						<label for="q16_a3" class="quiz16__label list__label">
+							<div class="quiz16__radio-wrapper">
+								<input type="radio" class="quiz16__radio list__radio" value="8" id="q16_a3" name="q16">
+								<span>Education</span>				
+							</div>
+						</label>	
+						
+						<label for="q16_a4" class="quiz16__label list__label">
+							<div class="quiz16__radio-wrapper">
+								<input type="radio" class="quiz16__radio list__radio" value="7" id="q16_a4" name="q16">
+								<span>Major Purchase</span>							
+							</div>
+						</label>
+						
+						<label for="q16_a5" class="quiz16__label list__label">
+							<div class="quiz16__radio-wrapper">
+								<input type="radio" class="quiz16__radio list__radio" value="6" id="q16_a5" name="q16">
+								<span>Financial Security</span>					
+							</div>
+						</label>	
+						
+						<label for="q16_a6" class="quiz16__label list__label">
+							<div class="quiz16__radio-wrapper">
+								<input type="radio" class="quiz16__radio list__radio" value="5" id="q16_a6" name="q16">
+								<span>Passive Income</span>					
+							</div>
+						</label>	
+						
+						<label for="q16_a7" class="quiz16__label list__label">
+							<div class="quiz16__radio-wrapper">
+								<input type="radio" class="quiz16__radio list__radio" value="4" id="q16_a7" name="q16">
+								<span>Legacy Planning</span>
+							</div>
+						</label>	
+						
+						<label for="q16_a8" class="quiz16__label list__label">
+							<div class="quiz16__radio-wrapper">
+								<input type="radio" class="quiz16__radio list__radio" value="3" id="q16_a8" name="q16">
+								<span>Beat Inflation</span>
+							</div>
+						</label>
+						
+						<label for="q16_a9" class="quiz16__label list__label">
+							<div class="quiz16__radio-wrapper">
+								<input type="radio" class="quiz16__radio list__radio" value="2" id="q16_a9" name="q16">
+								<span>Tax Advantages</span>						
+							</div>
+						</label>	
+						
+						<label for="q16_a10" class="quiz16__label list__label">
+							<div class="quiz16__radio-wrapper">
+								<input type="radio" class="quiz16__radio list__radio" value="1" id="q16_a10" name="q16">
+								<span>Diversification</span>						
+							</div>
+						</label>	
+						
+
+					</fieldset>
+			</form>
+			</div> 
+			<div class="quiz__button-wrapper">
+				<div class="quiz__prev-question">return</div>
+				<div class="quiz__next-question">next question</div>
+			</div>
+		</section> 
+		<!-- #17 question -->
+		<section data-quiz class="quiz17 hide">
+			<div class="quiz17__questions-sector">
+				<h2 class="quiz17__header"><span class="quiz__question-indicator">17/21</span> Are you planning any significant purchases in the near future?</h2>
+				<form class="quiz17__form">
+				<fieldset class="quiz17__questions">
+					<label for="q17_a1" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="10" id="q17_a1" name="q17">
+							<span>No significant purchases planned</span>				
+						</div>
+					</label>	
+					
+					<label for="q17_a2" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="8" id="q17_a2" name="q17">
+							<span>Few significant purchases planned</span>			
+						</div>
+					</label>
+					
+					<label for="q17_a3" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="6" id="q17_a3" name="q17">
+							<span>Some significant purchases planned</span>				
+						</div>
+					</label>	
+					
+					<label for="q17_a4" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="4" id="q17_a4" name="q17">
+							<span>Several significant purchases planned</span>
+						</div>
+					</label>	
+					
+					<label for="q17_a5" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="2" id="q17_a5" name="q17">
+							<span>Many significant purchases planned</span>				
+						</div>
+					</label>	
+					
+					<label for="q17_a6" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="1" id="q17_a6" name="q17">
+							<span>Numerous significant purchases planned</span>					
+						</div>	
+					</label>	
+								
+				</fieldset>
+				</form>
+				<div class="quiz__button-wrapper">
+					<div class="quiz__prev-question">return</div>
+					<div class="quiz__next-question">next question</div>
+				</div>
+			</div> 
+			<img src="./svg/q17_checkout.svg" alt="How old are you?" class="quiz17__img">
+		</section>
+		<!-- #18 question -->
+		<section data-quiz class="quiz17 quiz18 hide">			
+			<div class="quiz17__questions-sector">
+				<h2 class="quiz17__header"><span class="quiz__question-indicator">18/21</span> How flexible are you in adjusting your financial goals?</h2>			
+				<form class="quiz17__form">
+				<fieldset class="quiz17__questions">
+					<label for="q18_a1" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="10" id="q18_a1" name="q18">
+							<span>Extremely Flexible</span>						
+						</div>
+					</label>
+					
+					<label for="q18_a2" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="8" id="q18_a2" name="q18">
+							<span>Very Flexible</span>					
+						</div>
+					</label>	
+					
+					<label for="q18_a3" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="6" id="q18_a3" name="q18">
+							<span>Moderately Flexible</span>						
+						</div>
+					</label>
+					
+					<label for="q18_a4" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="4" id="q18_a4" name="q18">
+							<span>Somewhat flexible</span>						
+						</div>
+					</label>
+					
+					<label for="q18_a5" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="2" id="q18_a5" name="q18">
+							<span>Not very flexible</span>						
+						</div>
+					</label>
+					
+					<label for="q18_a6" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="1" id="q18_a6" name="q18">
+							<span>Not flexible at all</span>				
+						</div>
+					</label>	
+		
+				</fieldset>
+				</form>
+				<div class="quiz__button-wrapper">
+					<div class="quiz__prev-question">return</div>
+					<div class="quiz__next-question">next question</div>
+				</div> 	
+			</div>
+			<img src="./svg/q18_libra.svg" alt="How old are you?" class="quiz17__img">	
+		</section>
+		<!-- #19 question -->
+		<section data-quiz class="quiz17 quiz19 hide">	
+			<div class="quiz17__questions-sector">
+				<h2 class="quiz17__header"><span class="quiz__question-indicator">19/21</span> Do you have any upcoming financial commitments?</h2>			
+				<form class="quiz17__form">
+				<fieldset class="quiz17__questions">
+					<label for="q19_a1" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="10" id="q19_a1" name="q19">
+							<span>No Commitments</span>					
+						</div>
+					</label>
+					
+					<label for="q19_a2" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="8" id="q19_a2" name="q19">
+							<span>Few Commitments</span>					
+						</div>
+					</label>	
+					
+					<label for="q19_a3" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="6" id="q19_a3" name="q19">
+							<span>Some Commitments</span>				
+						</div>
+					</label>	
+					
+					<label for="q19_a4" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="4" id="q19_a4" name="q19">
+							<span>Several Commitments</span>					
+						</div>
+					</label>	
+					
+					<label for="q19_a5" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="2" id="q19_a5" name="q19">								<span>Many Commitments</span>		
+						</div>
+					</label>
+					
+					<label for="q19_a6" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="1" id="q19_a6" name="q19">
+							<span>Numerous Commitments</span>
+						</div>
+					</label>	
+					
+				</fieldset>
+				</form>
+				<div class="quiz__button-wrapper">
+					<div class="quiz__prev-question">return</div>
+					<div class="quiz__next-question">next question</div>
+				</div>
+			</div> 
+			<img src="./svg/q19_commitments.svg" alt="How old are you?" class="quiz17__img">
+		</section>
+		<!-- #20 question -->
+		<section data-quiz class="quiz17 quiz20 hide">			
+			<div class="quiz17__questions-sector">
+				<h2 class="quiz17__header"><span class="quiz__question-indicator">20/21</span> Are you dependent on your investments for your
+					day-to-day expenses? </h2>
+				<form class="quiz17__form">
+				<fieldset class="quiz17__questions">
+					<label for="q20_a1" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="10" id="q20_a1" name="q20">
+							<span>Not dependent at all</span>							
+						</div>
+					</label>
+					
+					<label for="q20_a2" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="8" id="q20_a2" name="q20">
+							<span>Minimally dependent </span>						
+						</div>
+					</label>
+					
+					<label for="q20_a3" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="6" id="q20_a3" name="q20">
+							<span>Partially dependent</span>						
+						</div>
+					</label>
+				
+					<label for="q20_a4" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="4" id="q20_a4" name="q20">
+							<span>Moderately dependent</span>							
+						</div>
+					</label>
+					
+					<label for="q20_a5" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="2" id="q20_a5" name="q20">
+							<span>Mostly dependent</span>							
+						</div>
+					</label>
+					
+					<label for="q20_a6" class="quiz17__label list__label">
+						<div class="quiz17__radio-wrapper">
+							<input type="radio" class="quiz17__radio list__radio" value="1" id="q20_a6" name="q20">
+							<span>Fully dependent</span>					
+						</div>
+					</label>
+					
+				</fieldset>
+				</form>
+				<div class="quiz__button-wrapper">
+					<div class="quiz__prev-question">return</div>
+					<div class="quiz__next-question">next question</div>
+				</div>
+			</div> 		
+			<img src="./svg/q20_day-to-day.svg" alt="How old are you?" class="quiz17__img">		
+		</section>
+		<!-- #21 question -->
+		<section data-quiz="last" class="quiz12 quiz21 hide">
+			<h2 class="quiz12__header"><span class="quiz__question-indicator">21/21</span> How many years until you retire?</h2>
+			<div class="quiz12__img-container">
+				<img src="./svg/q21_money_tree.svg" alt="How old are you?" class="quiz12__img">
+			</div>
+			<div class="quiz12__questions-sector">
+				
+				<form class="quiz12__form">
+				<fieldset class="quiz12__questions">
+					<label for="q21_a1" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="1" id="q21_a1" name="q21">
+							
+							<div class="quiz12__sector"><span>Retired</span></div>					
+						</div>
+					</label>
+					
+					<label for="q21_a2" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="2" id="q21_a2" name="q21">							
+							<div class="quiz12__sector"><span>Less than <br>1 year</span></div>				
+						</div>
+					</label>
+					
+					<label for="q21_a3" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="4" id="q21_a3" name="q21">							
+							<div class="quiz12__sector"><span>1 - 5 years</span></div>				
+						</div>
+					</label>	
+					
+					<label for="q21_a4" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="6" id="q21_a4" name="q21">						
+							<div class="quiz12__sector"><span>5  - 10 years</span></div>				
+						</div>
+					</label>	
+					
+					<label for="q21_a5" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="8" id="q21_a5" name="q21">							
+							<div class="quiz12__sector"><span>10 - 15 years</span></div>				
+						</div>
+					</label>	
+					
+					<label for="q21_a6" class="quiz12__label">
+						<div class="quiz12__radio-wrapper">
+							<input type="radio" class="quiz12__radio" value="10" id="q21_a6" name="q21">	
+							<div class="quiz12__sector"><span>More than <br>15 years</span></div>				
+						</div>
+					</label>
+					
+
+				</fieldset>
+			</form>
+			</div> 
+			<div class="quiz__button-wrapper">
+				<div class="quiz__prev-question">return</div>
+				<div class="quiz__next-question">next question</div>
+			</div>
+		</section>
+		<!-- Email enter -->
+		<section data-quiz="end" class="quiz-email hide">
+			<div class="quiz-email__wrapper">
+				<h2 class="quiz-email__header">Please let us know your e-mail address and we will send you your own personalized list of investment opportunities</h2>					
+				<form class="quiz-email__form">
+					<input class="quiz-email__email-input" type="email" name="email" placeholder="Email">
+					<button class="quiz-email__email-button"></button>				
+				</form>			
+				<div class="quiz__button-wrapper">
+					<div data-skip="true" class="quiz__prev-question">skip this page</div>
+					<div data-skip="true" class="quiz__next-question">my result</div>
+				</div>
+			</div>
+			<img src="./svg/e-mail-input.svg" alt="How old are you?" class="quiz-email__img">
+		</section>
+		<!-- Calculate your result -->
+		<section class="calculus hide">
+			<img data-img="main" src="./icons/smile.svg" alt="" class="calculus__img">
+			<img data-img="1" src="./svg/result-smiles/1.svg" alt="" class="calculus__img hide">
+			<img data-img="2" src="./svg/result-smiles/2.svg" alt="" class="calculus__img hide">
+			<img data-img="3" src="./svg/result-smiles/3.svg" alt="" class="calculus__img hide">
+			<img data-img="4" src="./svg/result-smiles/4.svg" alt="" class="calculus__img hide">
+			<h2 class="calculus__header">Good job! We are analyzing your result! Please, wait a moment</h2>
+			<div class="calculus-wrapper hide">
+				<svg data-path xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 819.68 819.68">
+					<g>
+						<path class="calculus__sector" d="M529.96 17.81c-35.89,-10.98 -73.88,-17.16 -113.22,-17.81l0 76.09c31.13,0.63 61.22,5.53 89.69,14.12l23.52 -72.4z"/>
+						<path class="calculus__sector" d="M645.17 74.18c-31.13,-21.86 -65.43,-39.51 -102.09,-52.1l-23.52 72.4c28.98,10.08 56.15,24.05 80.87,41.27l44.74 -61.57z"/>
+						<path class="calculus__sector" d="M737.38 163.33c-23.1,-30.64 -50.39,-57.94 -81.04,-81.03l-44.74 61.58c24.2,18.39 45.81,40 64.2,64.2l61.58 -44.74z"/>
+						<path class="calculus__sector" d="M797.61 276.59c-12.59,-36.65 -30.24,-70.96 -52.11,-102.09l-61.57 44.74c17.23,24.72 31.19,51.9 41.28,80.88l72.4 -23.52z"/>
+						<path class="calculus__sector" d="M819.68 402.94c-0.65,-39.34 -6.82,-77.33 -17.81,-113.22l-72.4 23.52c8.6,28.48 13.49,58.56 14.13,89.69l76.08 0z"/>
+						<path class="calculus__sector" d="M801.87 529.96c10.98,-35.89 17.16,-73.88 17.81,-113.22l-76.08 0c-0.63,31.13 -5.53,61.22 -14.13,89.7l72.4 23.52z"/>
+						<path class="calculus__sector" d="M745.5 645.18c21.86,-31.13 39.51,-65.44 52.1,-102.09l-72.4 -23.52c-10.08,28.98 -24.05,56.15 -41.28,80.88l61.57 44.74z"/>
+						<path class="calculus__sector" d="M656.35 737.38c30.64,-23.1 57.94,-50.4 81.04,-81.04l-61.58 -44.74c-18.39,24.2 -40,45.81 -64.2,64.2l44.74 61.58z"/>
+						<path class="calculus__sector" d="M543.09 797.61c36.66,-12.59 70.96,-30.24 102.09,-52.1l-44.74 -61.57c-24.72,17.23 -51.9,31.19 -80.88,41.28l23.53 72.4z"/>
+						<path class="calculus__sector" d="M416.74 819.68c39.34,-0.65 77.33,-6.82 113.22,-17.81l-23.53 -72.4c-28.48,8.6 -58.56,13.49 -89.69,14.12l0 76.09z"/>
+						<path class="calculus__sector" d="M289.72 801.87c35.89,10.98 73.88,17.17 113.22,17.81l0 -76.09c-31.13,-0.63 -61.21,-5.53 -89.69,-14.13l-23.52 72.4z"/>
+						<path class="calculus__sector" d="M174.5 745.5c31.13,21.87 65.43,39.52 102.09,52.11l23.53 -72.4c-28.98,-10.08 -56.15,-24.05 -80.88,-41.28l-44.74 61.58z"/>
+						<path class="calculus__sector" d="M82.3 656.34c23.1,30.64 50.39,57.94 81.03,81.04l44.74 -61.58c-24.2,-18.39 -45.81,-40 -64.2,-64.2l-61.58 44.74z"/>
+						<path class="calculus__sector" d="M22.07 543.09c12.59,36.65 30.24,70.96 52.1,102.09l61.57 -44.73c-17.23,-24.72 -31.19,-51.89 -41.28,-80.88l-72.4 23.52z"/>
+						<path class="calculus__sector" d="M-0 416.74c0.65,39.34 6.82,77.33 17.81,113.22l72.4 -23.52c-8.6,-28.48 -13.49,-58.56 -14.12,-89.69l-76.08 0z"/>
+						<path class="calculus__sector" d="M17.81 289.72c-10.98,35.89 -17.16,73.88 -17.81,113.22l76.08 0c0.63,-31.13 5.53,-61.21 14.13,-89.69l-72.4 -23.52z"/>
+						<path class="calculus__sector" d="M74.18 174.5c-21.86,31.13 -39.51,65.44 -52.11,102.09l72.4 23.52c10.08,-28.99 24.05,-56.15 41.28,-80.88l-61.57 -44.74z"/>
+						<path class="calculus__sector" d="M163.34 82.3c-30.64,23.1 -57.94,50.4 -81.03,81.04l61.58 44.74c18.39,-24.2 40,-45.81 64.2,-64.19l-44.74 -61.58z"/>
+						<path class="calculus__sector" d="M276.59 22.08c-36.65,12.6 -70.96,30.24 -102.09,52.1l44.74 61.58c24.72,-17.23 51.89,-31.19 80.87,-41.28l-23.52 -72.4z"/>
+						<path class="calculus__sector" d="M402.94 0c-39.34,0.65 -77.33,6.82 -113.22,17.81l23.52 72.4c28.48,-8.6 58.56,-13.49 89.69,-14.13l0 -76.09z"/>
+					  
+				
+				</g></svg>
+
+				<div class="calculus__percent">0%</div>
+			</div>
+		</section>
+		<!-- result section -->
+		<section class="result hide">
+			<div class="result-wrapper">
+				<div class="result__left">
+					<div class="result__left-container">
+						<div class="result__speed-container">
+							<div class="result__risk">
+								<img src="./svg/left_indicator.svg" alt="" class="result__risk-indicator">
+								<img src="./svg/left_arrow_indicator.svg" alt="" class="result__risk-arrow">
+								<div class="result__speed-text">Investment Horizon</div>
+							</div>
+							<div class="result__horizon">
+								<img src="./svg/right_indicator.svg" alt="" class="result__horizon-indicator">
+								<img src="./svg/right_arrow_indicator.svg" alt="" class="result__horizon-arrow">
+								<div class="result__speed-text">Risk Tolerance</div>
+							</div>
+						</div>
+						<div class="result__chart-container">
+							
+						</div>
+						<div class="result__descr">You must register if you wish to receive all the personalised suggestions on this website.</div>
+						<!-- <button data-signup class="result__button-regist">Registration
+							<img src="./icons/result-button-arrow-sec.svg" alt="">
+						</button>	 -->
+						<button data-signup class="result__button secondary">JOIN US NOW
+							<img src="./icons/result-button-arrow.svg" alt="">
+						</button>
+					</div>
+				</div>
+				<div class="result__right">
+					<div class="result__right-container">
+						<img src="./svg/result-img.svg" alt="" class="result__img">
+						<div class="result__text-container">
+							<h2 class="result__header">Congratulations, you did it!</h2>
+							<p class="result__text">Now you can start building your portfolio and receive your first investment offers. You can start right now, click  «sign up» or «build a portfolio» and track your investments in one place.</p>						
+							<button data-signup class="result__button main">JOIN US NOW
+								<img src="./icons/result-button-arrow.svg" alt="">
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- sign up form -->
+		<!-- <section class="signup hide" >
+				<div class="signup__left">
+					<div class="signup__left-wrapper">
+						<h2 class="signup__left-header">Welcome Back</h2>
+						<div class="signup__left-text">To keep connected with us, please login with your personal info</div>
+						<div class="signup__left-button-wrapper">
+							<div data-back="result" class="signup__left-button">
+								<img src="./icons/result-button-arrow.svg" alt="">
+								Back to result
+							</div>
+							<div data-signup class="signup__left-button">Login
+								<img src="./icons/result-button-arrow.svg" alt="">
+							</div>
+						</div>
+						<img src="./svg/signup_man.svg" alt="" class="signup__img">
+					</div>
+				</div>
+				<div class="signup__right">
+				<div class="signup__right-wrapper">
+					<div class="signup__right-header">Create Account</div>
+					<div class="signup__socials-wrapper">
+						<div data-registration="facebook" class="signup__social">
+							<img src="./icons/facebook_icon.svg" alt="" class="signup__facebook-icon">
+						</div>
+						<div data-registration="google" class="signup__social">
+							<img src="./icons/google_icon.svg" alt="" class="signup__google-icon">
+						</div>
+						<div data-registration="linkedin" class="signup__social">
+							<img src="./icons/linkedin_icon.svg" alt="" class="signup__linkedin-icon">
+						</div>
+					</div>
+					<div class="signup__subsocial-text">Or Use E-mail To Registration</div>
+					<form class="signup__form">
+						<div class="signup__form-names">
+							<input type="text" class="signup__input" placeholder="First Name">
+							<input type="text" class="signup__input" placeholder="Last Name">
+						</div>
+						<input type="text" class="signup__input" placeholder="Email">
+						<div class="signup__input-paswords">
+							<input type="text" class="signup__input" placeholder="Password">
+							<input type="text" class="signup__input" placeholder="Confirm Password">
+						</div>
+						<fieldset class="signup__goals">
+							<legend>What ‘s your first goal on this site?</legend>
+							<div class="signup__goal-wrapper">
+								<input type="radio" name="goal" class="signup__radio" value="invest" id="invest">
+								<label class="signup__label" for="invest">
+									<div class="signup__radio-circle"><div></div></div>
+									Invest
+								</label>
+							</div>
+							<div class="signup__goal-wrapper">
+								<input type="radio" name="goal" class="signup__radio" value="investoffer" id="investoffer">
+								<label class="signup__label" for="investoffer"><div class="signup__radio-circle">
+									<div></div></div>
+									Offer To Invest
+								</label>
+							</div>
+						</fieldset>
+						<div class="signup__captcha">
+							<div class="signup__captcha-offer">dFg51</div>
+							<input type="text" class="signup__input" placeholder="Enter Captcha" >
+
+						</div>
+		
+						<button type="submit" class="signup__right-button">SIGN UP!
+							<img src="./icons/result-button-arrow.svg" alt="">
+						</button>
+					</form>
+				</div>
+				</div>
+		</section> -->
+		
+		<!-- progress bar -->
+		
+		<div class="error">
+			Please choose an answer
+		</div>
+	</div>
+
+	<div class="progress hide">
+		<div class="progress-wrapper">
+			<div data-percent class="progress__percent">0%</div>
+			<div class="progress__progress-wrapper">
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+				<div class="progress__progress-item"></div>
+			</div>
+		</div>	
+	</div>
+	
+	<script src="script.js?v=4"></script>
+
+</body>
+
+</html>
